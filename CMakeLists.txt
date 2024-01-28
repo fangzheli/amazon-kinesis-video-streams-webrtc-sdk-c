@@ -147,7 +147,7 @@ if(BUILD_DEPENDENCIES)
     build_dependency(mbedtls ${BUILD_ARGS})
   endif()
 
-  set(OPENSSL_INCLUDE_DIR "${OPEN_SRC_INSTALL_PREFIX}/include/openssl")
+  set(OPENSSL_INCLUDE_DIR "${OPEN_SRC_INSTALL_PREFIX}/include/")
   if(WIN32)
     set(OPENSSL_INCLUDE_DIRS "${OPEN_SRC_INSTALL_PREFIX}/include/")
     set(OPENSSL_CRYPTO_LIBRARY "${OPEN_SRC_INSTALL_PREFIX}/lib/libcrypto.lib")
